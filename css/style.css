@@ -1,0 +1,314 @@
+:root {
+    --black: #222222;
+    --lite-pink: #F1E4E6;
+    --dark-pink: #F16D7F;
+    --sales-bkg-color: #4F4745;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    margin-left: 228px;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+.header {
+background-color: var(--black);
+width: 1600px;
+}
+.header__wrp {
+display: flex;
+justify-content: space-between;
+min-height: 75px;
+align-items: 
+}
+.header__list {
+    display: flex;
+}
+.header__logo {
+    margin: 0 41px 0 0;
+}
+.header__link {
+    margin: 0 0 0 34px;
+}
+.header__nav {
+    display: none;
+}
+.header__button {
+    border: none;
+    background-color: transparent;
+}
+.brand {
+    display: flex;
+    margin: 0 0 62px 0;
+    width: 1600px;
+}
+
+.brand__title-wrp {
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+    background-color: var(--lite-pink);
+    justify-content: center;
+}
+.brand__titile {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+.brand__subtitile {
+    display: block;
+    font-family: Lato;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.brand__subtitile-pink {
+    color: var(--dark-pink);
+}
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sales__item {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 360px;
+    min-height: 260px;
+}
+.sales__item--woman {
+    background-image: url(/Lesson-2/img/sales-woman.jpg);
+    text-align: center;
+    /* justify-content: center;     объясните мне почему не центрирует по оси??????????????????????????????????*/ 
+}
+.sales__item--man {
+    background-image: url(/Lesson-2/img/sales-man.jpg);
+    text-align: center;
+}
+.sales__item--kids {
+    background-image: url(/Lesson-2/img/sales-child.jpg);
+    text-align: center;
+}
+.sales__item--luxury {
+    background-image: url(/Lesson-2/img/sales-luxury.jpg);
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.catalog {
+    width: 1600px;
+}
+.catalog__title {
+    margin-top: 97px;
+    margin-left: 710px;
+    margin-bottom: 7px;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.catalog__text {
+    margin-top: 6px;
+    margin-left: 631px;
+    margin-bottom: 48px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #9F9F9F;
+}
+.catalog__list {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-left: 230px;
+margin-right: 230px;
+}
+.catalog__item {
+    height: 581px;
+    width: 360px;  
+}
+.item__title {
+    margin-left: 18px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.item__text {
+    margin-left: 16px;
+    margin-bottom: 18px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5D5D5D;
+}
+.item__text-mini {
+    margin-left: 18px;
+    margin-bottom: 20px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F16D7F;
+}
+.catalog__button {
+    margin-top: 63px;
+    margin-left: 734px;
+    margin-bottom: 95px;
+        font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#F26376;
+}
+.about-us {
+    width: 1600px;
+    height: 341px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #222222;
+}
+.about-us__forma {
+    margin-top: 103px;
+}
+.about-us__image {
+    height: 32px;
+    width: 45px;
+}
+.about-us__header {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#FBFBFB;
+
+}
+.about-us__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color:#FBFBFB;
+}
+.promotion {
+    background-image: url(/Lesson-2/img/promotion-fon.png);
+    width: 1600px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.promotion__slogan {
+
+
+}
+.promotion__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.promotion__feedback-text {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.promotion__application-input {
+    width: 256px;
+    height: 49px;
+    box-sizing: border-box;
+    border-radius: 25px 0 0 25px;
+    padding: 0 65px 0 25px;
+    background-color: #E1E1E1;
+}
+.promotion__application-button {
+    width: 100px;
+    height: 49px;
+    border-radius: 0 25px 25px 0;
+    color: #FFFFFF;
+    background-color: var(--dark-pink);
+}
+
+
+.social {
+    background-color: #222222;
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color:#FBFBFB;
+}
+.social__item {
+    display: flex;
+    color: white;  
+}
