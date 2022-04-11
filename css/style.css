@@ -312,3 +312,59 @@ margin-right: 230px;
     display: flex;
     color: white;  
 }
+.main__text {
+    height: 150px;
+    background-color: #F8F3F4;
+    width: 1600px;
+}
+.main__title {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F16D7F;
+    margin-left: 230px;
+    padding-top: 60px;
+}
+
+.registration__benefits {
+    display: flex;
+    justify-content: space-around;
+}
+.benefits__title {
+    margin-top: 64px;
+    margin-bottom: 22px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.benefits__text {
+    margin-bottom: 22px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.benefits__list {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    line-height: 2;
+}
+/* ul li:before {
+    content: '✓';
+} */ как сделать чтобы значек только на данный список распостранялся?
+.registration__name {
+    margin-top: 64px;
+}
