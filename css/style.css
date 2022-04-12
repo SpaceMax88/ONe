@@ -230,10 +230,7 @@ margin-right: 230px;
     text-align: center;
     align-items: center;
 }
-.promotion__slogan {
 
-
-}
 .promotion__text {
     font-size: 20px;
     font-weight: 400;
@@ -364,7 +361,7 @@ margin-right: 230px;
 }
 /* ul li:before {
     content: '✓';
-} */ как сделать чтобы значек только на данный список распостранялся?
+ как сделать чтобы значек только на данный список распостранялся?} */
 .registration__name {
     margin-top: 64px;
 }
