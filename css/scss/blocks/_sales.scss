@@ -1,0 +1,58 @@
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sales__item {
+    width: 360px;
+    height: 260px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #534947;
+    
+    @include tablet {
+        width: 232px;
+        min-height: 167px;
+    }
+
+    @include mobile {
+        width: 343px;
+        height: 247px;
+    }
+
+}
+.sales__item-text-pink {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F16D7F;
+}
+.sales__item--women {
+    background-image: url(/Lesson-2/img/sales-woman.jpg);
+}
+.sales__item--men {
+    background-image: url(/Lesson-2/img/sales-man.jpg);
+}
+.sales__item--kids {
+    background-image: url(/Lesson-2/img/sales-child.jpg);
+}
+.sales__item--accesories {
+    background-image: url(/Lesson-2/img/sales-luxury.jpg);
+    width: 100%;
+    margin: 20px 0 97px 0;
+
+    @include tablet {
+        min-height: 116px;
+    }
+
+    @include mobile {
+        min-height: 111px;
+    }
+}
