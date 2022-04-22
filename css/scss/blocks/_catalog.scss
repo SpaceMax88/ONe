@@ -1,0 +1,90 @@
+.catalog {
+    text-align: center;
+}
+.catalog__title {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+.catalog__text {
+    color: #9F9F9F;
+}
+.catalog__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 48px 0 48px 0;
+}
+.catalog__item {
+    width: 32.6%;
+    object-fit: cover;
+    height: 581px;
+    text-align: initial;
+    margin: 0 0 30px 0;
+    background-color: #F8F8F8;
+}
+.catalog__wrap-overlay {
+    position: relative;
+}
+.catalog__wrap-overlay:before {
+    display: none;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.catalog__button:before {
+    display: none;
+}
+.catalog__item:hover .catalog__button,
+.catalog__item:hover .catalog__wrap-overlay:before {
+    display: block;
+}
+.catalog__item-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 25px 0 12px 0;
+}
+.catalog__item-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding: 0 0 18px 0;
+}
+.catalog__item-text-pink {
+    color: #F16D7F;
+    padding: 0 0 20px 0;
+}
+.catalog__button {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 14px 14px 14px 30px;
+    border: 1px solid;
+    border-color: #FFFFFF;
+    background-image: url(/Lesson-2/img/shopping-cart.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer;
+}
+.catalog__link {
+    border: 1px solid;
+    border-color: #F16D7F;
+    padding: 14px 38px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 95px 0;
+    color: #F16D7F;
+    transition-duration: 1s;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    width: 71.25%;
+    margin: 0 auto;
+    max-width: 1140px;
+
+    @include tablet {
+        width: 95.5%;
+    }
+    @include mobile {
+        width: 91.5%;
+    }
+    
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+ol, ul {
+    list-style: none;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}

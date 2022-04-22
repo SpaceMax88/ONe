@@ -1,0 +1,74 @@
+.brand {
+    display: flex;
+    margin: 0 0 62px 0;
+}
+.brand__img {
+    @include tablet {
+        width: 50%;
+        min-height: 37px;
+        object-fit: cover;
+    } 
+    @include tablet-mobile-mid-width {
+        display: none;
+    }
+}
+.brand__title-wrp {
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    padding: 0 0 0 92px;
+    background-color: #F1E4E6;
+
+    @include tablet {
+        padding: 0 0 0 92px;
+    }
+    @include tablet-mobile-mid {
+        min-height: 363px;
+        padding: 0 0 0 83px;
+    }
+}
+.brand__title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #222222;
+    position: relative;
+    @include font(48px, 58px, 900);
+    text-transform: uppercase;
+
+    @include tablet {
+        @include font(52px, 44px, 900);
+    }
+    @include mobile {
+        @include font(38px, 45px, 900);
+    }
+}
+.brand__title:before {
+    content: "";
+    background-image: url(/Lesson-2/img/brand-dekor.png);
+    width: 12px;
+    height: 92px;
+    position: absolute;
+    left: -30px;
+    top: 3px;
+}
+.brand__subtitle {
+    display: block;
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 700;
+    @include font(37px, 44px, 700);
+
+    @include tablet {
+        @include font(28px, 24px, 700);
+    }
+
+    @include mobile {
+        @include font(20px, 24px, 700);
+    }
+}
+ 
+.brand__subtitile-pink {
+    color: $dark-pink;
+}

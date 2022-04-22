@@ -1,0 +1,85 @@
+.footer__bkg {
+    background-image: url(/Lesson-2/img/promotion-fon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.footer__feedback {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__feedback-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    padding: 87px 0 130px 0;
+}
+.footer__feedback-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.footer__application {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 557px;
+    align-items: center;
+}
+
+.footer__application-title {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 32px 0;
+}
+.footer__application-title-bold {
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+}
+.footer__application-form {
+    display: flex;
+}
+.footer__application-input {
+    width: 256px;
+    height: 49px;
+    box-sizing: border-box;
+    border-radius: 25px 0px 0 25px;
+    padding: 0 65px 0 25px;
+    background-color: #E1E1E1;
+    border: none;
+}
+.footer__application-button {
+    width: 100px;
+    border-radius: 0 25px 25px 0;
+    color: #FFFFFF;
+    background-color: #F16D7F;
+    border: none;
+    transition-duration: 1s;
+}
+.footer__copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+    background-color: #222222;
+}
+.footer__copyright-text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+.footer__copyright-list {
+    display: flex;
+}
+.footer__copyright-item {
+    margin: 0 0 0 7px;
+}

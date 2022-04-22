@@ -1,0 +1,29 @@
+.about-us {
+    background-color: #222222;
+    min-height: 341px;
+}
+.about-us__list {
+    display: flex;
+    text-align: center;
+    padding: 103px 0 103px 0;
+}
+.about-us__item {
+    margin-left: 30px;
+}
+.about-us__img {
+    height: 42px;
+}
+
+.about-us__item-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #FBFBFB;
+    margin: 28px 0 16px 0;
+}
+.about-us__item-text {
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #FBFBFB;
+    opacity: 0.7;
+}
