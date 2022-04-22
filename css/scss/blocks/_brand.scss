@@ -8,7 +8,7 @@
         min-height: 37px;
         object-fit: cover;
     } 
-    @include mobile {
+    @include tablet-mobile-mid-width {
         display: none;
     }
 }
@@ -22,7 +22,7 @@
     @include tablet {
         padding: 0 0 0 92px;
     }
-    @include mobile {
+    @include tablet-mobile-mid {
         min-height: 363px;
         padding: 0 0 0 83px;
     }
