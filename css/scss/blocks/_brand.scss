@@ -5,10 +5,10 @@
 .brand__img {
     @include tablet {
         width: 50%;
-        min-height: 37px;
+        min-height: 370px;
         object-fit: cover;
     } 
-    @include tablet-mobile-mid-width {
+    @include mobile {
         display: none;
     }
 }
@@ -22,7 +22,7 @@
     @include tablet {
         padding: 0 0 0 92px;
     }
-    @include tablet-mobile-mid {
+    @include mobile {
         min-height: 363px;
         padding: 0 0 0 83px;
     }

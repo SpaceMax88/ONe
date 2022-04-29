@@ -28,12 +28,16 @@
 .header__list {
     display: flex;
 }
-header__button {
+.header__button {
     border: none;
     background-color: transparent;
 }
 .header__link {
     margin: 0 0 0 34px;
+
+    @include mobile {
+        display: none;
+    }
 }
 .header__nav {
     background-color: #FFFFFF;
@@ -44,6 +48,11 @@ header__button {
     height: 764px;
     width: 232px;
     display: none;
+
+    @include tablet {
+        right: 0;
+        height: 622px;
+    }
 }
 .header__nav-title{
     text-transform: uppercase;
@@ -58,14 +67,4 @@ header__button {
 .header__button {
     border: none;
     background-color: transparent;
-}
-
-@media (max-width: $desktop-width) {
-
-}
-
-@media (max-width: $tablet-width) {
-    .header__link {
-        display: none;
-    }
 }

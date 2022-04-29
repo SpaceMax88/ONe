@@ -5,15 +5,15 @@ body {
     width: 71.25%;
     margin: 0 auto;
     max-width: 1140px;
-
-    @include tablet {
-        width: 95.5%;
-    }
-    @include mobile {
-        width: 91.5%;
-    }
-    
 }
+
+@media (max-width: $desktop-width) {
+.container {
+    width: 92%;
+    }
+}
+
+    
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
